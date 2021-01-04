@@ -1,0 +1,93 @@
+body{
+	background-image:url(bg1.jpg);
+	background-size:cover;
+ /*background:url(/Users/RashidAli/Desktop/Project IWP/Images/college-clip-art-4ibGq7rig.jpeg);*/
+	font-family:Arial,Helvetica,sans-serif;
+	padding-top:40px;
+	}
+	h1{
+		padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-family: 'Pontano Sans',Arial,Helvetica,sans-serif;
+	font-weight:200;
+	}
+	img.img{
+	  padding-top: 20px;
+	  padding-left: 20px;
+	  margin-left: 500px;
+		margin-right: 100px;
+	  align-content:center;
+	}
+	h2 {
+		color: #000;
+		font-size: 20px;
+		letter-spacing: 0px;
+		font-weight: normal;
+		padding: 0 0 0px;
+		margin-top: 0;
+		margin-bottom: 40px;
+		font-family: 'Pontano Sans', Arial, sans-serif;
+	}
+a{
+		text-decoration: none;
+		}
+		table{
+		padding: 15px 30px 15px 30px;
+		}
+		td.r1{
+				background-color:white;
+				padding: 15px 50px 15px 50px;
+				align-content: center;
+				border-radius: 3px;
+				background:-webkit-linear-gradient(white,#33aeb0,white);
+
+			}
+			.bttn {
+			    position: relative;
+					font-size: 14px;
+			    background-color: #33aeb0;
+					border-style: inset;
+			    border-width:1pt;
+			    padding: 20px;
+			    width: 170px;
+			    text-align: center;
+			    -webkit-transition-duration: 0.4s; /* Safari */
+			    transition-duration: 0.4s;
+			    text-decoration: none;
+			    overflow: hidden;
+			}
+
+			.bttn:hover{
+			   background:#fff;
+			   box-shadow:0px 2px 10px 5px #97B1BF;
+			   color:#000;
+			}
+
+			.bttn:after {
+			    content: "";
+			    background: #33aeb0;
+			    display: block;
+			    position: absolute;
+			    padding-top: 300%;
+			    padding-left: 350%;
+			    margin-left: -20px !important;
+			    margin-top: -120%;
+			    opacity: 0;
+			    transition: all 0.8s
+			}
+
+			.bttn:active:after {
+			    padding: 0;
+			    margin: 0;
+			    opacity: 1;
+			    transition: 0s
+			}
+
+			.shine{
+			  height:0px;
+			  border-radius: 2px;
+			  $color: teal;
+			  color: #33aeb0;
+			  border: 2px solid currentColor;
+			  width: 100%;
+			}

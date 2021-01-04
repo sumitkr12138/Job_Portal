@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #FFFFFF;
+  background:url(image/bg.jpg) repeat-x;
+  background-color: #E1E1E1;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 10pt;
+  border: 1px;
+  border-color: black;
+}
+.img{
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 50px;
+  align:center;
+}
+.headertext {
+
+  padding-left: 30px;
+  font-size: 20pt;
+  color: #506C2F;
+  background-color: lightblue;
+  font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+  font-style: italic;
+}
